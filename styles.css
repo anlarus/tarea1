@@ -1,0 +1,49 @@
+* {
+    color: purple;  
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+div {
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.desc {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+textarea {
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.sub {
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.formDiv {
+    width: 40%;
+    margin: 0.5%;
+}
+
+.brick {
+    width: 25%;
+    margin: 0.5%;
+}

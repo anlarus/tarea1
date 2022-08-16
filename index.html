@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Core Challenge 1</title>
+  </head>
+  <body>
+    <div class="brick"></div>
+
+    <div class="formDiv">
+      <div><h1>New user? - register here:</h1></div>
+      <div>
+        <form action="">
+          <div>
+            <label for="fName">First name:</label>
+            <input type="text" id="fName" required />
+          </div>
+          <div>
+            <label for="lName">Last name:</label>
+            <input type="text" id="lName" />
+          </div>
+          <div>
+            <label for="emailAddress">Your e-mail:</label>
+            <input id="emailAddress" type="email" required />
+          </div>
+          <div>
+            <label for="pass">Your password:</label>
+            <input id="pass1" type="password" required />
+          </div>
+          <div>
+            <label for="pass">Confirm password:</label>
+            <input id="pass2" type="password" required />
+          </div>
+          <div>
+            <label for="bd">Your birthday date:</label>
+            <input id="bd" type="date" required />
+          </div>
+          <div>
+            <input type="radio" id="male" name="gender" value="M" />
+            <label for="male">Male</label><br />
+            <input type="radio" id="female" name="gender" value="F" />
+            <label for="female">Female</label><br />
+            <input type="radio" id="nonB" name="gender" value="nonB" />
+            <label for="nonB">Non-binary</label>
+            <input type="radio" id="empty" name="gender" value="empty" />
+            <label for="empty">Prefer not to answer</label>
+          </div>
+
+          <div class="desc">
+            <label for="desc">Some words about you:</label>
+            <textarea
+              id="desc"
+              name="desc"
+              maxlength="150"
+              placeholder="Describe yourself here..."
+            ></textarea>
+          </div>
+          <label for="cars">Favourite language:</label>
+          <div>
+            <select name="cars" id="cars">
+              <option value="volvo">Javascript</option>
+              <option value="saab">C++</option>
+              <option value="mercedes">Java</option>
+              <option value="audi">Python</option>
+            </select>
+          </div>
+          <div>
+            <input type="checkbox" id="cbox" value="cbox" required />
+            <label for="cbox">I am agree with to be notified by e-mail</label>
+          </div>
+          <input type="submit" value="Create your account" class="sub" />
+        </form>
+      </div>
+    </div>
+    <div class="brick"></div>
+  </body>
+</html>
